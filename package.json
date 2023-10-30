@@ -1,0 +1,18 @@
+{
+  "name": "cypresspartone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:chrome": "cypress run --browser chrome",
+    "open:chrome": "cypress open --browser chrome",
+    "run:edge": "cypress run --browser edge",
+    "open:edge": "cypress open --browser edge"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.3"
+  }
+}
